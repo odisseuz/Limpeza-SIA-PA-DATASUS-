@@ -22,7 +22,7 @@ Entretanto, é possível alterar o tipo de dado requerido dentro do script!
 
 O pipeline unifica os microdados com tabelas auxiliares (CNES, SIGTAP, CBO e IBGE) para traduzir códigos em nomes legíveis e gerar indicativos de deslocamento de pacientes (invasão municipal/estadual).
 
-## ⚙️ Etapas do Pipeline
+## Etapas:
 
 ### 1. Download e Filtragem Inicial (SIA-PA)
 * Cria um diretório local chamado `meses/`.
@@ -65,9 +65,6 @@ Verifica se as tabelas de domínio já existem localmente. Se não, realiza o do
 | **invasao_municipial** | Indica atendimento fora do município (sim/não/indeterminado). | Calculado |
 | **invasao_estadual** | Indica atendimento fora do estado (sim/não). | Calculado |
 | **CID** | Código Internacional de Doenças (3 caracteres). | SIA-PA |
-
----
-
 
 ---
 *Desenvolvido com muito café e MPB* ☕🎶
